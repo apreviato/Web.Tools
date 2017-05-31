@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo - Apresentador</title>
+	<link rel="stylesheet" type="text/css" href="css/Apresentador.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/Apresentador.js"></script>
+
+	<style type="text/css">
+		.elemento1{
+			background-color: gray;
+			color: white;
+			padding:10px;
+			border-radius:10px;
+			margin:20px;
+		}
+		.elemento2{
+			background-color: rgb(250,250,250);
+			border:solid 1px silver;
+			display:block;
+			padding:20px;
+			margin:20px;
+		}
+		#elemento3{
+			background-color: rgb(150,230,150);
+			padding:10px;
+			border-radius:10px;
+			margin:20px;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".elemento1").click(function(){
+				Apresentar({
+                    "cenas": [
+                      { "Objeto": ".elemento1", "Texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, turpis vel vestibulum feugiat." },
+                      { "Objeto": ".elemento2", "Texto": "Donec vehicula eget odio nec congue. Morbi quis scelerisque sem, quis accumsan ligula." },
+                      { "Objeto": "#elemento3", "Texto": "Morbi maximus odio eget pretium cursus. Donec ut libero purus. Mauris semper ex eu velit maximus, elementum eleifend lorem lobortis." }],
+                    "naoMostrarNovamente": false
+                });
+			});
+		});
+	</script>
+</head>
+<body>
+	<input type="button" class="elemento1" value="Iniciar apresentação!">
+
+	<span class="elemento2">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, turpis vel vestibulum feugiat, velit urna vestibulum ipsum, sit amet faucibus metus mi at tellus. Pellentesque volutpat aliquet dignissim. Sed porta blandit tortor sed mollis. Ut ac tortor elementum est lobortis dapibus ac sit amet ipsum. In et ante sem. In eget mauris dictum, imperdiet velit at, congue sapien. Donec vehicula eget odio nec congue. Morbi quis scelerisque sem, quis accumsan ligula. Aenean a nulla sapien. Nullam euismod ipsum id suscipit vulputate. Aenean sit amet enim a velit gravida facilisis id eu nisi. Phasellus scelerisque volutpat sapien, id scelerisque odio elementum eu. Morbi maximus odio eget pretium cursus. Donec ut libero purus. Mauris semper ex eu velit maximus, elementum eleifend lorem lobortis.
+	</span>
+
+	<div id="elemento3">
+		Divisória de teste!
+	</div>
+</body>
+</html>

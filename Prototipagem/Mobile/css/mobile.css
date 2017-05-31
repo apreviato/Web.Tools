@@ -1,0 +1,348 @@
+html, body{
+	padding:0px;
+	margin:0px;
+	font-family: verdana;
+	overflow: hidden;	
+
+}
+.divCelular{
+	background-image: url('../img/celular.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	width:600px;
+	position: absolute;
+	left:50%;
+	margin-left:-350px;
+	bottom:0px;
+}
+.divMolduraCelular{
+	position: absolute;
+	left:275px;
+	top:85px;
+	background-color:white;
+	width:243px;
+	height: 431px;
+	z-index: 999;
+}
+.divMolduraCelular iframe{
+width:100%;
+height: 100%;
+border:none;
+z-index: 999;
+}
+.dedoMobile
+{
+	z-index:9999;
+	position:absolute;
+	right:77px;
+	top:490px;
+}
+.barraSuperiorMobile{
+	position: absolute;
+	left:275px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 162px;
+	width:243px;
+	height: 15px;
+	top:70px;
+	background-color:black;
+	background-image:url('../img/iconesBarra.png');
+}
+
+.barraSuperiorMobile span{
+	font-size:8pt;
+	color:#00ace6;
+	float: right;
+	margin-right:5px;
+}
+.logo
+{
+	width:300px;
+}.textoDescritivo{
+	color:teal;
+	float: left;
+	margin:50px;
+	font-family: verdana
+}
+nav{
+	width:100%;
+	background-color:rgb(240,240,240);
+	border-bottom:solid 1px silver;
+	height: 40px;
+}
+nav span{
+	position: absolute;
+	left: 40px;
+	top:12px;
+	color:teal;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.cabecalhoMenuLateral span{
+	position: absolute;
+	left: 50px;
+	top:12px;
+	color:teal;
+	font-weight: bold;
+	font-size: 10pt;
+}
+.btnLeft{
+	position: absolute;
+	left:5px;
+	top:5px;
+	width:30px;
+	height: 30px;
+	cursor:pointer;
+}
+.btnRight{
+	position: absolute;
+	right:5px;
+	top:5px;
+	width:30px;
+	height: 30px;
+	cursor:pointer;
+}
+.divScroll{
+	width:100%;
+	height: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;	
+	padding-left:5px;
+	padding-right:5px;
+	box-sizing:border-box;
+}
+input[type=text],input[type=password],select{
+	width:100%;
+	border:solid 1px teal;
+	margin-top:10px;
+	padding-top:5px;
+	padding:5px;
+	border-radius:5px;
+	box-sizing:border-box;
+}
+input[type=button]{
+	background-color:teal;
+	color:white;
+	border-radius:5px;
+	border:none;
+	width:100%;
+	padding:10px;
+	box-sizing:border-box;
+	cursor:pointer;
+}
+a{
+	text-decoration: none;
+	color:#2D4471;
+	font-size:10pt;
+}
+.menuFundo{
+	width:100%;
+	height:100%;
+	background-color:rgba(150,150,150,0.3);
+	position:absolute;
+	left:80%;
+	top:0px;
+	z-index:99999;
+}
+.menuLateral{
+	width:80%;
+	height:100%;
+	background-color:white;
+	position:absolute;
+	left:0px;
+	border-right:solid 1px teal;
+	top:0px;
+	z-index:99999;
+}
+.cabecalhoMenuLateral{
+	background-color:rgb(240,240,240);
+	height: 40px;
+	width:100%;
+}
+.btnPrincipalLeft{
+	width:80%;
+	cursor:pointer;
+	margin-left:18%;
+	height: 25px;
+	position:relative;
+	margin-top:5px;
+	border:solid 1px rgb(240,240,240);
+	background-color:rgb(240,240,240);
+}
+.btnPrincipalLeft img{
+position:absolute;
+left:0px;
+margin-left:-20%;
+top:0px;
+margin-top:-8px;
+width:40px;
+}
+.btnPrincipalLeft span{
+position:absolute;
+left:15px;
+top:2px;
+font-size:10pt;
+color:teal;
+}
+.btnPrincipalRight{
+	margin-top:5px;
+	cursor:pointer;
+	width:80%;
+	margin-left:5%;
+	height: 25px;
+	position:relative;
+	border:solid 1px rgb(240,240,240);
+	background-color:rgb(240,240,240);
+}
+.btnPrincipalRight img{
+position:absolute;
+right:0px;
+margin-right:-20%;
+top:0px;
+margin-top:-8px;
+width:40px;
+}
+.btnPrincipalRight span{
+position:absolute;
+left:15px;
+font-size:10pt;
+top:2px;
+color:teal;
+}
+.blocoEnvioGuia{
+width:90%;
+margin-left:5%;
+height: 60px;
+}
+.blocoEnvioGuia:hover img{
+	opacity: 0.5;
+}
+.blocoEnvioGuia div{
+border:solid 1px rgb(240,240,240);
+height: 80px;
+margin-left:30%;
+margin-top:10px;
+cursor: pointer;
+width:80px;
+}
+.blocoEnvioGuia img{
+	width:80px;
+	opacity:0.6;
+}
+.blocoEnvioGuia span{
+	color:teal;
+	font-size:10pt;
+}
+.atualizarBtn{
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font-size: 8pt;
+	cursor: pointer;
+	color:teal;
+}
+.divCamera{
+	width:100%;
+	height: 100%;
+	background-image:url('../img/fotoQRCode.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+}
+.divCameraFoto{
+	width:100%;
+	height: 100%;
+	background-image:url('../img/fotoGuia.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: 0px 0px;
+}
+.botaoCamera{
+	background-color:#00ace6;
+	width:40px;
+	height: 40px;
+	border-radius:40px;
+	position: absolute;
+	bottom: 10px;
+	left:50%;
+	margin-left:-20px;
+	border:solid 2px black;
+	cursor: pointer;
+}
+.divCameraTopo{
+	width:100%;
+	position: absolute;
+	top:0px;
+	left: 0px;
+	height: 30%;
+	background-color:rgba(0,0,0,0.4);
+}
+.divCameraTopo p{
+color:white;
+font-size:8pt;
+text-align: center;
+padding-top:40%;
+}
+.divCameraBase{
+	width:100%;
+	position: absolute;
+	bottom:0px;
+	left: 0px;
+	height: 30%;
+	background-color:rgba(0,0,0,0.4);
+}
+
+.divCameraBase p{
+color:white;
+font-size:8pt;
+text-align: center;
+padding-top:1%;
+}
+.boxItemListagem{
+	width:100%;
+	min-height: 30px;
+	border:solid 1px silver;
+	padding:5px;
+	background-color:rgb(250,250,250);
+	box-sizing:border-box;
+}
+.boxItemListagem span{
+	font-size:8pt;
+}
+.boxItemListagem .tituloBoxItemListagem{
+	font-size:10pt;
+}
+.boxFiltros{
+	width:100%;
+	background-color:rgb(240,240,240);
+	padding:10px;
+	box-sizing:border-box;
+}
+.opcoesCores{
+	width:100%;
+	position: absolute;
+	bottom: 5px;
+}
+.opcoesCores div{
+width:50%;
+text-align:center;
+cursor: pointer;
+color:gray;
+font-size:8pt;
+float: left;
+}
+::-webkit-scrollbar {
+    width: 2px;
+    height: 2em;
+}
+::-webkit-scrollbar-button {
+    background: white
+}
+::-webkit-scrollbar-track-piece {
+    background: white
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+}​

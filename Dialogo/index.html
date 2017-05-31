@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo - Dialogo</title>
+	<link rel="stylesheet" type="text/css" href="css/Dialogo.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/Dialogo.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#btnExibitDialogo").click(function(){
+				$('#boxDialogo').Dialogo({ width: '445' });
+			});
+		});
+	</script>
+</head>
+<body>
+	<input type="button" id="btnExibitDialogo" value="Exibir dialogo">
+	<div id="boxDialogo" title="Exemplo" style="display:none">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pulvinar, turpis vel vestibulum feugiat, velit urna vestibulum ipsum, sit amet faucibus metus mi at tellus. Pellentesque volutpat aliquet dignissim. Sed porta blandit tortor sed mollis. Ut ac tortor elementum est lobortis dapibus ac sit amet ipsum. In et ante sem. In eget mauris dictum, imperdiet velit at, congue sapien. Donec vehicula eget odio nec congue. Morbi quis scelerisque sem, quis accumsan ligula. Aenean a nulla sapien. Nullam euismod ipsum id suscipit vulputate. Aenean sit amet enim a velit gravida facilisis id eu nisi. Phasellus scelerisque volutpat sapien, id scelerisque odio elementum eu. Morbi maximus odio eget pretium cursus. Donec ut libero purus. Mauris semper ex eu velit maximus, elementum eleifend lorem lobortis.
+		</p>
+	</div>
+</body>
+</html>

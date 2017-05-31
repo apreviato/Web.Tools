@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/mobile.css">
+</head>
+<body>
+	<nav>
+		<img src="img/voltar.png" class="btnLeft" onclick="location='passo2.html';"/>
+		<span>Envio de guias</span>
+		<img src="img/confirm.png" class="btnRight" onclick="location='passo9.html';"/>
+	</nav>
+	<div class="divScroll">
+		<p style="color:teal;font-size:9pt !important;">Toque nos blocos abaixo para realizar a leitura do QRCode e tirar uma foto da guia.</p>
+		<div class="blocoEnvioGuia">
+			<span>Leitura do QRCode <img src="img/tick.png" style="width:30px;position:absolute;margin-top:-7px;opacity:1 !important"/></span>
+		<br>
+			<div onclick="location='passo5.html';">
+				<img style="opacity:1 !important" src="img/qrcode.png"/>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<div class="blocoEnvioGuia">
+			<span>Foto da guia <img src="img/tick.png" style="width:30px;position:absolute;margin-top:-7px;opacity:1 !important"/></span>
+		<br>
+			<div onclick="location='passo7.html';">
+				<img src="img/fotoGuia.jpg"/>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

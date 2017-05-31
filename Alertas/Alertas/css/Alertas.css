@@ -1,0 +1,100 @@
+﻿.divAlerta{
+    font-family:Verdana;
+    font-size:11pt;
+    position:fixed;
+    top:120px;
+    left:50%;
+    width:40%;
+    margin-left: -20%;
+    padding:10px;
+    color:white;
+    background-color:rgba(50,50,50,0.9);
+    border:solid 1px gray;
+    border-radius:10px;
+}
+.divAlerta>div{
+    background-image: url('data:image/png;base64,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');
+    background-position: 2px 0px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    position:relative;
+    width:100%;
+}
+.divAlerta .divFecharAlerta{
+    position:absolute;
+    width:20px;
+    height:20px;
+    right:2px;
+    top:2px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhAQ8VHg3E0nmYAAABkElEQVQoz42TMU4jQRBFf0+byDhgxQqJS3ADRIJTLCQIiHEIhrPga2ARIEDyDfAJkHZtIMCIENkeu3uq3wZ4VzMsARWWSvpVv94XQrjoRxqtTtv0ecMw3uhP28PVkaLHISRkzvxM+WF6hEm6p0ePeyYJ0mN+OJN5c0hJMful0IVxOrX1QsnhUFovTu01Qej+VsySFP1CoQs3Yc2Ew+HxOBxizW4ChO5C0QvNj+A6ZOnvmNC/0SxdB5gfIT03eHhhw0Sdc3YQNWqIHc6pIzbsBR6eG5q1oWNCnAA5LYRokQMnCNExmLXF3YRNE2KbABhNmhgQ2EaITZvAnRgPUPrYbY8IvPMORPaWuyoNYCyKK4RH1BBNAolEoLnseMQVFJm+W2XpVkW69Un6v2N22f3imCy/rOtAkrSlFc21r7762tdcK9qSJB2orvxSTyXDzyqGn5UMf2p8/4XRLxQu4PYLKH7YbYBwsVD0SorZUKELr6lTwuxn0VliNvzArAruNA3o0WPA9DO4lSgcV6JwPCpF4Q+WxOyjeUO1ngAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxNy0wMS0xNVQyMTozMDoxMy0wNTowMIxihYcAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTctMDEtMTVUMjE6MzA6MTMtMDU6MDD9Pz07AAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    cursor:pointer;
+}
+.divAlerta .divMinimizarAlerta{
+    display:none;
+    color:silver;
+    cursor:pointer;
+    position:absolute;
+    width:20px;
+    height:20px;
+    right:25px;
+    top:2px;
+}
+.divAlerta .sTituloAlerta{
+    padding-left: 30px;
+    font-weight:bold;
+    left:4px;
+    top:4px;
+}
+.divAlerta .divAssunto{
+    position:absolute;
+    left:4px;
+    top:30px;
+}
+.divAlerta .sDataAlerta {
+    font-size:9pt;
+}
+.divAlerta .divBotaoAlerta {
+    font-size:9pt;
+    margin-top:15px;
+    margin-left:10px;
+    float:right;
+    background-color:gray;
+    color:white;
+    border:solid 1px white;
+    border-radius:5px;
+    padding: 5px;
+}
+.divAlerta .divBotaoAlerta:hover {
+    background-color:black;
+    cursor:pointer;
+}
+.barraAlertas{
+    font-family:Verdana;
+    font-size:9pt;
+    position:absolute;
+    left:10px;
+    bottom:0px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgba(50,50,50,0.9);
+    padding:5px 10px 5px 10px;
+    color:white;
+}
+.barraAlertas span{
+    color:white;
+    padding: 2px;
+    background: #a00303;
+    font-size:8pt;
+    width:15px;
+    height:15px;
+    border-radius:15px;
+    margin-right:5px;
+}
+.barraAlertas:hover{
+    background-color:black;
+    cursor:pointer;
+}
+.barraAlertas:hover span{
+    background: #820505;
+}

@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/mobile.css">
+<script src="js/jquery-2.2.0.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<nav>
+		<span style="margin-left:-30px !important">Início</span>
+		<img src="img/sair.png" class="btnRight" onclick="location='passo1.html';"/>
+	</nav>
+	<div class="divScroll">
+		<br>
+		<div class="SemCor">
+			<div class="btnPrincipalLeft" onclick="location='passo4.html';">
+				<img src="img/qrcodeicon.png"/>
+				<span>Enviar guias</span>
+			</div>
+			<br>
+			<div class="btnPrincipalLeft" onclick="location='passo10.html';">
+				<img src="img/relatorio.png"/>
+				<span>Lotes de faturamento</span>
+			</div>
+			<br>
+			<div class="btnPrincipalLeft" onclick="location='passo13.html';">
+				<img src="img/dinheiro.png"/>
+				<span>Pagamentos</span>
+			</div>
+		</div>
+		<div class="ComCor" style="display:none">
+			<div class="btnPrincipalLeft" onclick="location='passo4.html';">
+				<img src="img/qrcodeiconb.png"/>
+				<span>Enviar guias</span>
+			</div>
+			<br>
+			<div class="btnPrincipalLeft" onclick="location='passo10.html';">
+				<img src="img/relatoriob.png"/>
+				<span>Lotes de faturamento</span>
+			</div>
+			<br>
+			<div class="btnPrincipalLeft" onclick="location='passo13.html';">
+				<img src="img/dinheirob.png"/>
+				<span>Pagamentos</span>
+			</div>
+		</div>
+		<div class="opcoesCores">
+			<div onclick="SemCor();">Sem cor</div>
+			<div onclick="ComCor();">Com cor</div>
+		</div>
+	</div>
+</body>
+</html>
+<script language="javascript">
+	function SemCor(){
+		$(".ComCor").hide();
+		$(".SemCor").show();
+	}
+	function ComCor(){
+		$(".ComCor").show();
+		$(".SemCor").hide();
+	}
+</script>
